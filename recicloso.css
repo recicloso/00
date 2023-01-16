@@ -18,8 +18,7 @@ body{
               background-color: rgb(255, 244, 43);
               width: 100%;
               height: 100%;
-              opacity: 1;
-            }
+               }
               .logo img{
               height:67%;
       }
@@ -38,6 +37,10 @@ body{
                     height: 100%;
                     border-left: none;
                     float: left;
+                  }
+                  .lab1 img{
+                    margin-left: 1.5%;
+                    height: 42%;
                   }
 
                 .recicloso{
@@ -62,12 +65,11 @@ body{
                           margin-left: 2%;
                           height: 72%;
                         }
-
                    .reci1{
                      width: 10%;
                      height: 100%;
                      float: left;
-                                          }
+                     }
                         .btn1{
                           background-color: #3fd78f;
                           width: 100%;
@@ -195,7 +197,6 @@ background:  #ffffff;
     border-radius: 100%;
     width: 55px;
     height: 55px;
-    border-radius: 100%;
     align-content: center;
     border: none;
   }
@@ -210,7 +211,6 @@ background:  #ffffff;
   border-radius: 100%;
   width: 55px;
   height: 55px;
-  border-radius: 100%;
   align-content: center;
   border: none;
   position: fixed;
@@ -227,7 +227,6 @@ cursor:pointer;
   border-radius: 100%;
   width: 55px;
   height: 55px;
-  border-radius: 100%;
   align-content: center;
   border: none;
   opacity: 1;
@@ -246,10 +245,10 @@ cursor:pointer;
   padding-top: 100px;
   background-color:#f461ff;
   width: 230px;
-  height: 710px;
+  height: 89.5vh;
   top: 0; left: 0;
   transition: all .2s ease;
-   opacity: 0;
+  opacity: 0;
   visibility: hidden;
  }
 #btn-menu:checked ~ .container-menu{
@@ -331,22 +330,25 @@ section[id]{
    letter-spacing: -1px;
    line-height: 0px; /*espacio entre lineas*/
  }
- h2{ /*l a b o r a t o r i o//////////////////////////////////////////////////////////*/
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   font-size: 16px;
-   color: #2d2d2d ;
-   text-align: left;
-   margin-left: 1.2%;
-   font-weight: 620;
-   letter-spacing: 1px;
-   line-height: 0px; /*espacio entre lineas*/
- }
+ h2{ /*vermas vermas*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13.5px;
+  color: #2d2d2d ;
+  font-weight: 540;
+  letter-spacing: 1px;
+  line-height: 0px; /*espacio entre lineas*/
+}
+#vermas{ 
+  font-size: 12px;
+}
  h3{ /*COMPRAS */
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    font-size: 16px;
    color: #2d2d2d ;
    font-weight: 620;
    letter-spacing: 1px;
+   line-height: 14px; /*espacio entre lineas*/
+   margin-top: 5%;
    }
    #conti{ /*txt contadores */
      margin-top: -3%;
@@ -413,7 +415,7 @@ section[id]{
        height: 100%; /*-programas programas programas-*/
        float: left;
      }
-           .w11{
+           .programas{
              background:#f461ff;
              width: 100%;
              height: 100%;
@@ -423,21 +425,12 @@ section[id]{
              cursor:pointer;
              transition: all 0.1s linear;
            }
-           .w11:hover {
+           .programas:hover {
            background:#ffffff;
              }  
-  .w2{
-   width: 50%;
-   height: 100%; /*-osito-*/
-   float: left;
-  }
- 
-         .w22{
+
+         .contenedores{
            background: #58c7c3;
-           background-image: url(m/oso3.png);
-           background-size: 60%;
-           background-position: center;
-           background-repeat: no-repeat;
            width: 100%;
            height: 100%;
            float: left;
@@ -449,34 +442,21 @@ section[id]{
            align-items: center;
            justify-content: center;
               }
-         .w22:hover {
+         .contenedores:hover {
          background: #ffffff;
          }  
-  .b{
-   width: 100%;
-   height: 33.5%;
-   float: left;
-  }
-  .b1{
-   width: 50%;
-   height: 100%;
-   float: left;
- }
-         .b11{
+         
+         .temporal{
            background: #d8f2f1;
            width: 100%;
            height: 100%;
            float: left;
            border-left: none;
          }
-         .b11:hover {
+         .temporal:hover {
            background: #ffffff;
            } 
-  .b2{
-   width: 50%;
-   height: 100%;
-   float: left;
-  }
+
   .d{
    width: 100%;
    height: 50%;
@@ -487,7 +467,7 @@ section[id]{
          height: 100%;
          float: left;
        }
-                 .d11{
+                 .acv{
                    background:#f461ff;
                    width: 100%;
                    height: 100%;
@@ -496,17 +476,10 @@ section[id]{
                    cursor: pointer;
                    transition: all 0.1s linear;
                  }
-                 .d11:hover {
+                 .acv:hover {
                    background:#ffffff;
                    }  
- 
-       .d2{
-       
-         width: 50%;
-         height: 100%;
-         float: left;
-       }
-               .d22{
+               .ubicaciones{
                  background:  #3fd78f;
                  width: 100%;
                  height: 100%;
@@ -515,20 +488,11 @@ section[id]{
                  cursor:pointer;
                  transition: all 0.1s linear;
                }
-               .d22:hover {
+               .ubicaciones:hover {
                background:  #ffffff;
                } 
-  .e{
-   width: 100%;
-   height: 100%;
-   float: left;
-  }
-       .e1{
-         width: 50%;
-         height: 100%;
-         float: left;
-       }
-             .e11{
+
+             .reciclaje{
                background: rgb(255, 244, 43);
                width: 100%;
                height: 100%;
@@ -538,15 +502,10 @@ section[id]{
                cursor:pointer;
                transition: all 0.1s linear;
              }
-             .e11:hover {
+             .reciclaje:hover {
              background: rgb(255, 255, 255);
              } 
-       .e2{
-         width: 50%;
-         height: 100%;
-         float: left;
- }
-             .e22{
+             .equipo{
                background:#f461ff; /*equipo*/
                width: 100%;
                height: 100%;
@@ -556,16 +515,16 @@ section[id]{
  cursor: pointer;
                transition: all 0.1s linear;
              }
-             .e22:hover {
+             .equipo:hover {
                background:#ffffff;
                }  
  
   .c{
    width: 100%;
-   height: 98.5%; /*repositorio */
+   height: 33%; /*repositorio */
    float: left;
   }
-         .c1{
+         .repositorio{
            background: #98dddb;
            width: 100%;
            height: 100%;
@@ -578,11 +537,11 @@ section[id]{
            align-items: center;
            justify-content: center;
          }
-         .c1:hover {
+         .repositorio:hover {
          background: #ffffff;
          } 
  
-  .bloque3{
+  .bloque2{
    width: 51%;
    height: 100%;
    float: left;
@@ -595,38 +554,40 @@ section[id]{
  
          .g1{
            width: 33%;
-           height: 110%;
+           height: 100%;
            float: left;
          }
-               .g11{
+               .alianzas{
                  background:  #3fd78f;
                  width: 100%;
                  height: 100%;
                  float: left;
                  border-left: none;
+                 border-bottom: none;
                 transition: all 0.1s linear;
                }
-               .g11:hover {
+               .alianzas:hover {
                  background:  #ffffff;
                  } 
  
          .g2{
            width: 67%;
-           height: 110%;
+           height: 100%;
            float: left;
          }
-         .g22{
+         .activaciones{
            background:  rgb(255, 244, 43);
            width: 100%;
            height: 100%;
            float: left;
           border-left: none;
+          border-bottom: none;
           transition: all 0.1s linear;
           display: flex;
           align-items: center;
           justify-content: center;
          }
-         .g22:hover {
+         .activaciones:hover {
            background:  rgb(255, 255, 254);
            } 
  .a5{
@@ -646,93 +607,332 @@ section[id]{
           transition: all 0.1s linear;
           cursor: pointer ;
          }
-     
-
-
-
- @media (max-width:1260px){
-    h2{ font-size: 15px; } 
-  }
- @media (max-width:1190px){ 
-   h2{ 
-    font-size: 12px; 
-    line-height: 11.5px; /*espacio entre lineas*/
-  }
-   }
-   /*///////////////////////////////////////////825/////////////*/
+         .viruta2{
+          background-image:linear-gradient(rgba(0, 0, 0, 0.253),rgba(0, 0, 0, 0.253)),  url(m/viruta2.gif);
+          background-size: cover;
+          background-position: center;
+          width: 100%;
+          height: 700px;
+        }
+        
+        .flechas{
+        width: 100%;
+         height: 210px;
+         }
+         .fle{
+           background-color: rgb(255, 244, 43);
+           background-image: url(m/play22.gif);
+          background-size: contain;
+          background-repeat:repeat-x;
+           width: 100%;
+           height: 100%;
+           }
+        
+           .fleUp{
+            background-color: rgb(255, 244, 43);
+            background-image: url(m/play33.gif);
+           background-size: contain;
+           background-repeat:repeat-x;
+            width: 100%;
+            height: 100%;
+            border-top: none;
+            }
+         .botones1{
+          width: 100%;
+          height: 44px;
+        }    
+        .comprasonline{
+          background-color:#d8f2f1;
+          width: 100%;
+          height: 100%;
+          cursor: pointer;
+          align-items: left;
+          border-top: none;
+          transition: all 0.1s linear;
+        }
+        .comprasonline:hover{
+          background-color:#f461ff;
+          }
+          
+.compras{
+  width: 100%;
+  height: 441px;
+}
+.m{
+  width: 16%;
+  height: 100%;
+  float: left;
+ }
+                .m11{
+                  width: 100%;
+                  height: 100%;
+                  border-top: none;
+                  transition: all 0.1s linear;
+                }
+.productosnuevos{
+ width: 67%;
+ height: 100%;
+float: left;
+}
+ .o{
+  width: 33.33%;
+  height: 100%;
+  float: left;
+ }
+ .oo{
+  width: 33.34%;
+  height: 100%;
+  float: left;
+ }
+                 .o11{
+                 width: 100%;
+                 height: 100%;
+                 border-left: none;
+                 border-top: none;
+                 transition: all 0.1s linear;
+                  }
+                  .p{
+                    width: 17%;
+                    height: 100%;
+                    float: left;
+                   }
+                                  .p11{
+                                    width: 100%;
+                                    height: 16.5%;
+                                    border-bottom: none;
+                                    border-left: none;
+                                    transition: all 0.1s linear;
+                                  }
+                                  #p22{
+                                    border-top: none;
+                                    background-color: #98dddb;
+                                  }
+                                  #p22:hover{
+                                    background-color: #ffd8fd;
+                                  }
+                                  #p23{
+                                  background-color: #58c7c3;
+                                }
+                                #p23:hover{
+                                  background-color: rgb(0, 255, 55);
+                                }
+                                  #p24{
+                                   background-color: #3fd78f;
+                                  }
+                                  #p24:hover{
+                                    background-color: rgb(255, 244, 43);
+                                  }
+                                  #p25{
+                                   background-color:  rgb(0, 255, 55);
+                                   }
+                                  #p25:hover{
+                                    background-color: #58c7c3;;
+                                  }
+                                  #p26{
+                                   background-color:#ffd8fd;
+                                  }
+                                  #p26:hover{
+                                    background-color: #98dddb;
+                                  }
+                                  .p27{
+                                    background-color:#f461ff;
+                                    width: 100%;
+                                    height: 17.5%;
+                                    border-left: none;
+                                    transition: all 0.1s linear;
+                                   }
+                                   .p27:hover{
+                                     background-color: #ffffff;
+                                    }
+     /*///////////////////////////////////////////825////////////*/
  @media (max-width:825px){ 
-  h1{ 
-    font-size: 18px; 
-  }
-   h2{ 
-    font-size: 8.5px; 
+  .botones0{
+    height: 90px;
+   }
+  .lab1 img{
+    height: 32%;
   }
    .slider{
+    height: 590px;
+    padding-top: 90px;
+   }
+   .CONTENEDORGENERAL{
     height: 340px;
    }
-   .btn0 img{
-    height: 62%;
-  }
-  .logo img{
-    height:55%;
-}
+   
 #carrito{
   font-size: 28px;
   cursor:pointer;
   } 
   #bajar1px{
-    margin-top: 5px;
+    margin-top: 3px;
     font-size: 28px;
     }   
     #carrito2{
       font-size: 28px;
       }
     #carritoMenu{
-      font-size: ;
+      font-size: 16px;
       }
 .container-menu{
  width: 303px;
- height: 100vh;
  }
-
- .CONTENEDORGENERAL{
-  height: 340px;
- }
-  .historia img{
-    height:40%; 
+ .ingles{
+  width: 45px;
+  height: 45px;
+}
+.btnW{
+  width: 45px;
+  height: 45px;
+   }
+   .menu{
+    margin-left: 65px;
+     width: 45px;
+    height: 45px;
+   }
+   h1{ 
+    font-size: 14px; 
   }
+  h2{ 
+    font-size: 12px; 
+    font-weight: 540;
+    line-height: 12px;
+  }
+  h3{ /*COMPRAS */
+    font-size: 13px;
+    font-weight: 580;
+    line-height: 9px; /*espacio entre lineas*/
+    margin-top: 3%;
+    }
+  #vermas{ 
+    font-size: 10px; 
+  }
+  .flechas{
+    height: 150px;
+    }
+    .compras{
+      height: 270px;
+    }
 
   }
+       /*///////////////////////////////////////////650////////////*/
+ @media (max-width:650px){ 
+  h2{ 
+    font-size: 8.5px; 
+  }
+  h3{ /*COMPRAS */
+    font-size: 9px;
+    line-height: 9px; /*espacio entre lineas*/
+    }
+}
 /*///////////////////////////////////////////450/////////////*/
   @media (max-width:450px){ 
-    .btn0 img{
-      height: 38%;
-      margin-left: 0%;
-    }
-    .logo img{
-      height:40%;
-  }
-    .slider{
-      height: 300px;
+    .botones0{
+      height: 65px;
      }
+     .btn0 img{
+      margin-left: 0;
+      height: 59%;
+    }
+    .lab1 img{
+      height: 28%;
+      margin-left: 0;
+    }
+    .slider{
+      height: 570px;
+      padding-top: 65px;
+     }
+     #contenedor{
+      background-image:linear-gradient(rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.253)),  url(m/450.gif);
+      }
      h1{ 
       font-size: 9px; 
     }
+    h2{ 
+      font-size: 6px; 
+      font-weight: 500;
+      line-height: 8px;
+    }
+    #vermas{ 
+      font-size: 5px; 
+    }
      .CONTENEDORGENERAL{
-      height: 180px;
+      height: 720px;
      }
+     .historia{
+      width: 32%;
+      height: 50%;
+    }
+    .bloque1{
+      width: 68%;
+      height: 50%;
+    }
+    .bloque2{
+      width: 100%;
+      height: 50%;
+    }
+    .g1{
+      width: 32%;
+    }
+    .alianzas{
+border-top: none;
+    }
+    .g2{
+      width: 68%;
+    }
+    .activaciones{
+      border-top: none;
+    }  
+
+
      #carrito{
-      font-size: 18px;
+      font-size: 16px;
       } 
       #bajar1px{
-        margin-top: 5px;
-        font-size: 18px;
+        margin-top: 2px;
+        font-size: 16px;
         } 
         #carrito2{
-          font-size: 16px;
+          font-size: 24px;
           }
         #carritoMenu{
-          font-size: ;
+          font-size: 12px;
           }
-          
+          .ingles{
+            width: 30px;
+            height: 30px;
+          }  
+          .btnW{
+            width: 30px;
+            height: 30px;
+             }
+             .menu{
+              margin-left: 50px;
+               width: 30px;
+              height: 30px;
+             }
+             .flechas{
+               height: 95px;
+               }
+               .botones1{
+                height: 35px;
+               }
+               .compras{
+                height: 475px;
+              }
+              .productosnuevos{
+                width: 57%;
+              }
+              .o{
+                width: 100%;
+                height: 33.4%;
+               }
+               .oo{
+                width: 100%;
+                height: 33.3%;
+               }
+               .p{
+                width: 27%;
+               }
+
       }
