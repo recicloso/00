@@ -149,6 +149,10 @@ background: white;
 background: rgb(255, 255, 255);
 }             
             #bajar1px{
+              display: flex;
+              align-items: center;
+              justify-content: center;   
+              color: #000000;
                           margin-top: 3px;
                           font-size: 30px;
                           cursor:pointer;
@@ -190,12 +194,14 @@ background:  #ffffff;
   }
   .ingles{
     background-color: rgb(0, 255, 55);
-    margin-top: 8px;
+    margin-top: 10px;
     margin-left: 5px;
     border-radius: 100%;
     width: 55px;
     height: 55px;
-    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
     border: none;
   }
   .ingles:hover{
@@ -205,11 +211,13 @@ background:  #ffffff;
 .btnW{
   background-color: rgb(0, 255, 55);
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 5px;
   border-radius: 100%;
   width: 55px;
   height: 55px;
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;   
   border: none;
   position: fixed;
   opacity: 1;  
@@ -220,12 +228,13 @@ cursor:pointer;
 }
 .menu{
   background-color: rgb(0, 255, 55);
-  margin-top: 10px;
-  margin-left: 75px;
+  margin-top: 75px;
+  margin-left: 5px;
   border-radius: 100%;
   width: 55px;
   height: 55px;
-  align-content: center;
+  align-items: center;
+  justify-content: center;  
   border: none;
   opacity: 1;
   visibility: visible;
@@ -295,29 +304,33 @@ transform: translateY(13%);
 
 /*/////////////////menu desglosable fin///////////////////*/
 #carrito{
-  text-align: center;
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;   
   color: #000000;
   font-size: 30px;
   cursor:pointer;
   } 
   #carrito3{
-    text-align: center;
-    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
     color: #000000;
     font-size: 90px;
     cursor:pointer;
     } 
 #carritoMenu{
-  text-align: center;
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;   
   color: #000000;
   font-size: 20px;
   cursor:pointer;
   }
   #carrito2{
-    text-align: center;
-    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
     color: #000000;
     font-size: 40px;
     cursor:pointer;
@@ -1192,6 +1205,7 @@ h6{ /*texto final*/
   h3{ /*COMPRAS */
     font-size: 9px;
     line-height: 9px; /*espacio entre lineas*/
+    font-weight: 400;
     }
     .prensa{
       width: 100%;
@@ -1274,6 +1288,7 @@ h6{ /*texto final*/
        }
      h1{ 
       font-size: 9px; 
+      font-weight: 400;
     }
     h2{ 
       font-size: 6px; 
