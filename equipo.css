@@ -336,6 +336,9 @@ p{
          float: left;
          }
                                                                                  #carrito{
+                                                                                  display: flex;
+                                                                                  align-items: center;
+                                                                                  justify-content: center;
                                                                                       color: #2d2d2d;
                                                                                       font-size: 30px;
                                                                                       cursor:pointer;

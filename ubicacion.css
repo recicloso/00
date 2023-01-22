@@ -126,13 +126,17 @@ background:  #ffffff;
 }  
 
 #carrito{
-  text-align: center;
-  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #000000;
   font-size: 30px;
   cursor:pointer;
   } 
   #carrito3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: -200px;
     font-size: 160px;
     color: #000000;
