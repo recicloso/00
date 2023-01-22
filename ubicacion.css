@@ -1,0 +1,333 @@
+
+
+body{
+  padding:0%;
+  margin: 0%;
+}
+button{
+  border-color: #2d2d2d;
+}
+.botones0{
+  width: 100%;
+  height: 110px;
+  position: fixed;
+  z-index: 5;
+ }
+      .logo{
+        width: 16%;
+        height: 100%;
+        float: left;
+        }
+            .logo0{
+              background-color: rgb(255, 244, 43);
+              width: 100%;
+              height: 100%;
+               }
+              .logo img{
+              height:67%;
+      }
+      .name{
+        width: 84%;
+        height: 100%;
+        float: left;
+      }
+                .lab{
+                  width: 100%;
+                  height: 35%;
+                 }
+                  .lab1{
+                    background-color: #ffd8fd;
+                    width: 100%;
+                    height: 100%;
+                    border-left: none;
+                    float: left;
+                  }
+
+                .recicloso{
+                  width: 100%;
+                  height: 65%;
+                  float: left;
+                  }
+                  .reci0{
+                    width: 59.3%;
+                    height: 100%;
+                    float: left;
+                    }
+                        .btn0{
+                          background-color: #26ff00;
+                          width: 100%;
+                          height: 100%;
+                          float: left;
+                          border-left: none;
+                          border-top: none;
+                          }
+                        .btn0 img{
+                          margin-left: 2%;
+                          height: 72%;
+                        }
+                   .reci1{
+                     width: 10%;
+                     height: 100%;
+                     float: left;
+                     }
+                        .btn1{
+                          background-color: #3fd78f;
+                          width: 100%;
+                          height: 100%;
+                          float: left;
+                          border-left: none;
+                          border-top: none;
+                        }
+                     .reci2{
+                          width: 10.5%;
+                          height: 100%;
+                          float: left;
+                          }
+                             .btn2{
+                               background-color:#58c7c3;
+                               width: 100%;
+                               height: 100%;
+                               float: left;
+                               border-left: none;
+                               border-top: none;
+                             }
+                        .reci3{
+                           width: 10.1%;
+                           height: 100%;
+                           float: left;
+                           }
+                                 .btn3{
+                                   background-color: #98dddb;
+                                   width: 100%;
+                                   height: 100%;
+                                   float: left;
+                                   border-left: none;
+                                   border-top: none;
+                                 }
+    
+
+                              .reci4{
+                                width: 10.1%;
+                                height: 100%;
+                                float: left;
+                                }
+                                      .btn4{
+                                        background-color: #d8f2f1;
+                                        width: 100%;
+                                        height: 100%;
+                                        float: left;
+                                        border-left: none;
+                                        border-top: none;
+                                        cursor: pointer;
+                                        transition: all 0.1s linear;
+                                      }
+.btn4:hover {
+background:  #ffffff;
+}  
+
+#carrito{
+  text-align: center;
+  align-content: center;
+  color: #000000;
+  font-size: 30px;
+  cursor:pointer;
+  } 
+  #carrito3{
+    margin-top: -200px;
+    font-size: 160px;
+    color: #000000;
+    
+    } 
+  .ubis{        
+    padding-top: 110px;   
+    width: 100%;
+   height: 100vh;
+   }
+   .ubis img{        
+    height:80%;
+   }
+   #acv   {        
+   background-color: #d8f2f1;
+   text-align: center;
+   }
+
+   .historia{
+    width: 16%;
+    height: 100vh;
+    float: left;
+    padding-top: 110px;
+    position: fixed;
+  }
+                  .historia1{
+                    background-color: #ffd8fd;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: top;
+                    justify-content: right;    
+                    border-top: none;
+                  }
+                  .historia img{
+                    height:40%;
+                    margin-top: 16%;
+                    margin-right: 5%;
+                  }
+                  .bloque1{
+                    width: 49.8%;
+                    height: 935px;
+                    float: left;
+                    padding-top: 110px;
+                    padding-left: 16% ;
+                    }
+                        .b{
+                          width: 100%;
+                          height: 275px;
+                          float: left;
+                        }
+                        .b1{
+                          width: 100%;
+                          height: 55px;
+                          border-left: none;
+                          border-top: none;
+                          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                          text-align: justify;
+                          line-height: 18px;
+                          font-size: 20px;
+                           }
+                     #color1  {   
+                      background-color: #3fd78f;
+                    }    
+                    #color2  {   
+                      background-color: #58c7c3;
+                    }    
+                    #color3  {   
+                     background-color:  #98dddb;
+                    }   
+                        .c0{
+                          color: #2d2d2d ;
+                          width: 100%;
+                          height: 55px;
+                          border-left: none;
+                          border-top: none;
+                          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                          text-align: left;
+                          font-size: 32px;
+                         }
+                .todo{   
+                  width: 100%;
+                  height: 100vh;
+                  position: relative;
+             }     
+                 .todo i{   
+                  position: absolute;
+                  bottom: 35vh;
+                  right: 10%;
+                  opacity: 1;
+                 }
+                 h5{ /*l a b o r a t o r i o*/
+                  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                  font-size: 15px;
+                  color: #2d2d2d ;
+                  text-align: left;
+                  margin-left: 1.2%;
+                  margin-top: 0.5%;
+                   font-weight: 500;
+                  letter-spacing: 1px;
+                }
+
+    /*///////////////////////////////////////////825////////////*/
+ @media (max-width:825px){ 
+  .botones0{
+    height: 90px;
+   }
+  .lab1 img{
+    height: 32%;
+  }
+  .ubis{        
+    padding-top: 90px;   
+   }
+   .ubis img{        
+    height:50%;
+   }
+#carrito{
+  font-size: 28px;
+  } 
+  .historia{
+    padding-top: 90px;
+   }
+  .historia img{
+    height:25%;
+    }
+    .bloque1{
+      padding-top: 90px;
+      }  
+      .b1{
+        line-height: 14px;
+        font-size: 16px;
+         }
+         .c0{
+          font-size: 22px;
+         }
+         .todo i{   
+          bottom: 45vh;
+          right: 6%;
+         }
+         h5{ /*l a b o r a t o r i o*/
+          font-size: 12px;
+      }
+}
+
+/*///////////////////////////////////////////450/////////////*/
+@media (max-width:450px){ 
+  .botones0{
+    height: 65px;
+   }
+   .btn0 img{
+    margin-left: 0;
+    height: 59%;
+  }
+  .lab1 img{
+    height: 28%;
+    margin-left: 0;
+  }
+  .ubis{        
+    padding-top: 60px;   
+   }
+   #carrito{
+    font-size: 16px;
+    } 
+    .ubis img{    
+      height:40%;
+     }
+     .historia{
+      padding-top: 60px;
+    }
+    .historia img{
+      height:18%;
+      }
+      .bloque1{
+        width:84%;
+        padding-top: 60px;
+        }  
+        .b1{
+          line-height: 12px;
+          font-size: 14px;
+           }
+           .c0{
+            font-size: 18px;
+           }
+
+            #carrito3{
+            font-size: 100px;
+              } 
+              .todo i{   
+                bottom: 0;
+                right: 0;
+                opacity: 0;
+               }
+               h5{ /*l a b o r a t o r i o*/
+                font-size: 10px;
+              margin-left: 1%;
+               font-weight: 400;
+            }
+  }
