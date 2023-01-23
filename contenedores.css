@@ -237,7 +237,7 @@ h5{ /*l a b o r a t o r i o*/
 }
  /*/////////////////////////////////////plasticos///////////*/
  .back{
-  background-color: #2d2d2d;
+  background-color: #ffffff;
   width:100%;
   height: 100vh;
   }
@@ -277,6 +277,7 @@ h5{ /*l a b o r a t o r i o*/
     height: 55px;
     }
     .li  {
+      background-color: #ffffff;
       color:#2d2d2d;
       width:100%;
       height: 100%;
@@ -284,6 +285,7 @@ h5{ /*l a b o r a t o r i o*/
       border-left: none;
       }
   .cos{
+    background-color: #ffffff;
     width:100%;
     height: 100%;
     float: left;
