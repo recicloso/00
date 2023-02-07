@@ -638,11 +638,11 @@ section[id]{
             }
          .flyer{
           background-color:rgba(0, 255, 55);
-          width: 80%;
-          height: 70vh;
-               }
+          width: 35%;
+          height: 90vh;
+          }
                #flyerworkshop{
-                background-color:rgba(0, 255, 55, 0.718);
+                background-color:rgba(38, 38, 38, 0.915);
               }
                .flyer .cancelador{
                 margin-left: 95%;
