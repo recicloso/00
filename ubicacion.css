@@ -150,10 +150,17 @@ background:  #ffffff;
    .ubis img{        
     height:80%;
    }
-   #acv   {        
-   background-color: #d8f2f1;
-   text-align: center;
+   .acve{      
+    background-color: #ffffff;  
+    background-image: url(m/circular.png);
+    background-position: center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+    padding-top: 110px;   
+    width: 100%;
+    height: 100vh;
    }
+
 
    .historia{
     width: 16%;
