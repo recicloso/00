@@ -207,6 +207,27 @@ background:  #ffffff;
 #wCero:hover {
   background: #d8f2f1;
    }  
+
+    /* ////////////////////////inicia botonmas1*/
+#botonmas1{
+  display: none;
+}
+#botonmas1:checked ~ .mostrar{
+  opacity: 1;
+  visibility: visible;
+}
+#unouno{
+  margin-top: 0;
+  background-image: url(programas/x.png);
+  background-size: 43%;
+  background-position: bottom;
+  background-repeat:no-repeat;
+  margin-top: 0px;
+  background-color: #98dddb;
+}
+#wUno:hover {
+  background: #98dddb;
+} 
  /* ////////////////////////inicia botonmas2*/
 #botonmas2{
   display: none;
@@ -254,7 +275,7 @@ background:  #ffffff;
 #seisseis{
   margin-top: 0px;
   margin-top: 0;
-  background-image: url(programas/metox.png);
+  background-image: url();
   background-size: 80%;
   background-position: bottom;
   background-repeat:no-repeat;
@@ -279,8 +300,18 @@ margin-right: 20px;
   background-size: cover;
   background-position: center;
 }
+#talleres{
+  background-image:  url(programas/talleres.gif);
+  background-size: cover;
+  background-position: center;
+}
+#murales{
+  background-image:  url(programas/murales.gif);
+  background-size: cover;
+  background-position: center;
+}
 #producto{
-  background-image:  url(programas/cortes.gif);
+  background-image:  url(programas/murales.gif);
   background-size: cover;
   background-position: center;
 }
