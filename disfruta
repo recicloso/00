@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+         <title>Reimagina el Futuro - RECICLOSO _°°</title>
+
+         <link rel="shortcut icon" type="image/x-icon" href= "cursor/recicloso.ico"/>
+         <link rel="shortcut icon" type="image/vnd.microsoft.icon" href= "cursor/recicloso.ico"/>
+         <link rel="stylesheet" href="recicloso.css"/>
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+         <script src="https://kit.fontawesome.com/68d530161c.js" crossorigin="anonymous"></script>
+         <meta name="viewport" content="initial-scale=1, maximun-scale=1">
+  </head>
+  
+
+  
+<header>
+  
+ <div class="botones0" id="toptop">           <!-- :::::grid botones:::::::::--> 
+
+  <DIV class="name">      <!-- :::::EN TODO LO LARGO:::::::::--> 
+
+    <div class="lab"> 
+      <button class="lab1">
+        <h5> <MARQUee DIRECTION="loop"> Laboratorio de Diseño + Experimentación con Residuos + Procesos Circulares + Educación Ambiental + Arte + :) + Laboratorio de Diseño + Experimentación con Residuos + Procesos Circulares + Educación Ambiental + Arte + :v ++</MARQUee></H5>
+              </button>
+    </div> 
+
+    <DIV class="plays">       
+      <button class="plays0">
+        <img width="80%" align="center"  src="m/play55.gif"/>
+      </button> 
+    </DIV>
+    
+         
+
+          <div class="recicloso">
+
+             
+
+                <div class="reci0">
+                  <button class="btn0">
+                   <img align="left" src="m/recicloso22.png"/>
+                  </button>
+          
+                </div>
+                <div class="reci1">
+               
+                  <button class="btn1"> 
+<!--boton Modal--><label for="collabs"><i id="carrito" class="fa-solid fa-earth-americas"></i>
+                </label> </button>
+                </div>
+
+                <input type="checkbox" id="collabs">
+ <!--Ventana Modal-->       
+         <div id="informativo" class="popmama1">         
+          <div class="flyer1"> <br><br><br><br>
+            <h6 id="explicativo"> En el Perú sólo se gestiona adecuadamente el 10% de los residuos sólidos. <br>
+              FUENTE: MINAM<br> <br>
+
+              El 46% de residuos sólidos en las playas son plástico.<br>
+              FUENTE: SPDA<br><br>
+              
+              En el mejor de los casos, la temperatura será de un grado y medio más que ahora.<br>
+              FUENTE: ONU
+            </h6>
+            <h6 id="explicativo">X_o </h6>
+            
+                  <div class="cancelador1">
+                    <label for="collabs"><i  class="fas fa-times"></i> </label>
+                  </div>
+          </div>
+          <label for="collabs" class="cerrar-modal1"> </label>  
+  </div>
+  <!-- fin Ventana Modal-->  
+
+                <div class="reci2">
+                  <button class="btn2">
+ <!--boton Modal--><label for="collabs2"><img id="logi" width="35%" align="center"  src="m/loguito.png"/> 
+                    </label> </button>
+                </div>
+
+                <input type="checkbox" id="collabs2">
+ <!--Ventana Modal-->       
+         <div id="informativo2" class="popmama2">         
+          <div class="flyer2"> <br><br><br><br>
+            <h6 id="explicativo"> Somos un agente de cambio.<br><br><br>
+
+              Creemos en el amor intrínseco hacia la Naturaleza como seres humanos. 
+              Hacemos que las personas puedan conectar con ese amor siendo responsables con 
+              sus acciones (residuos).<br><br><br>
+              
+              Gracias a nuestros productos y experiencias construimos y transformamos
+               cotidianidades en expresiones lúdicas y artísticas para vibrar junto al mundo
+                en armonía +. ° °
+              
+            </h6>
+            <div class="loguito0"></div>
+                  <div class="cancelador2">
+                    <label for="collabs2"><i  class="fas fa-times"></i> </label>
+                  </div>
+          </div>
+          <label for="collabs2" class="cerrar-modal1"> </label>  
+  </div>
+  <!-- fin Ventana Modal-->  
+
+                <div class="reci3">
+                  <a href="#"><button  class="btn3">
+                    <i  id="bajar1px" class="fa-solid fa-cart-shopping"></i>
+                  </button></a> 
+                </div>
+                <div class="reci4">
+                  <a href="index.html#cuadro"><button class="btn4">
+                    <i id="carrito" class="fa-solid fa-house"></i>
+                  </button></a> 
+                </div>
+           </DIV><!-- :::::cierra recicloso.::::::::-->   
+       </DIV><!-- :::::cierra name::::::::-->   
+      </div><!-- :::::cierra botones::::::::--> 
+
+    </header>
+      <body>
+    
+        <DIV class="reimagina22"> 
+              <button class="reimagina222">
+                <a > disfrutemos el proceso de ser divertidamente responsables
+                </a><p></p>
+              </button>
+        </DIV>
+
+         <div class="textoyellow">
+          <button class="reimaginatexto">
+            <h6 id="textore"> El corazón de Recicloso además de verde es juguetón,
+               digamos que Recicloso es un ser mágico que sólo quiere jugar y
+                ama tanto la naturaleza que no entiende otra manera de ser,
+                 más que evitar mientras pueda, que residuos terminen en las tierras o mares. <br><br>
+                 Disfruta tanto haciéndolo que contagia.
+<br><br>
+              En el multiverso Recicloso estamos todos contagiados de su chispa 
+              y no nos queda otra mas que ser, de apelar a nuestra autenticidad,
+               de diseñar objetos y experiencias que ayuden a transmitir este sentir, 
+               a pesar de que muchas veces no sea claro cual es el camino hacia la 
+               sostenibilidad o no lleguemos a estadísticas impecables, hacemos lo que podemos,
+                con amor,  disfrutando el proceso.
+              
+            </h6>
+          </button>
+        <div class="flechones">
+                    <div class="pey2">
+                    <a id="tamaño" href="reimagina.html">◁</a>
+                  </div>  
+                  <div class="pey">
+                    <a id="tamaño" href="top3.html">▷</a>
+                  </div>
+                      
+                </div>
+      </body>
+  
+
+</html>
