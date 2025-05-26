@@ -5,81 +5,100 @@ body{
 button{
   border-color: #2d2d2d;
 }
+
 .botones0{
   width: 100%;
-  height: 110px;
+  height: 100px;
   position: fixed;
-  z-index: 5;
+  z-index: 12;
  }
-      .logo{
-        width: 16%;
-        height: 100%;
-        float: left;
-        }
-            .logo0{
-              background-color: rgb(255, 244, 43);
-              width: 100%;
-              height: 100%;
-               }
-              .logo img{
-              height:67%;
-      }
-      .name{
-        width: 84%;
-        height: 100%;
-        float: left;
-      }
-                .lab{
-                  width: 100%;
-                  height: 35%;
+ .name{
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.lab{
+  width: 100%;
+  height: 30px;
+  float: left;
+ }
+ .lab1{
+  background-color:#ffd8fd;
+  width: 100%;
+  height: 100%;      
+  border-left: none;
+ 
+  float: left;
+  }
+.plays{
+  width: 15%;
+  height: 100%;
+  float: left;
+  }
+     .plays0{
+      background-color: rgb(255, 246, 67);
+      width: 100%;
+      height: 70px;
+      border-top: none;
+
                  }
-                  .lab1{
-                    background-color: #ffd8fd;
-                    width: 100%;
-                    height: 100%;
-                    border-left: none;
-                    float: left;
+         .plays img{
+               height:70%;
+         }
+
+
+     .recicloso{
+      width: 85%;
+      height: 70px;
+      float: left;
+      }
+
+         .reci0{
+         width: 60%;
+         height: 100%;
+         float: left;
+          }
+              .btn0{
+               background-color: rgb(56, 255, 53);
+               width: 100%;
+               height: 100%;
+               float: left;
+               border-top: none;
+               border-left: none;
+               }
+                 .btn0 img{
+                 margin-left: 2%;
+                 height: 55%;
+                 }
+                 #magg{
+                 margin-top: 1%;
+                     height: 84%;
+                    
                   }
-                .recicloso{
+          .reci1{
+           width: 10%;
+           height: 100%;
+           float: left;
+           }
+                 .btn1{
+                  background-color: #3fd78f;
                   width: 100%;
-                  height: 65%;
+                  height: 100%;
                   float: left;
+                  border-left: none;
+                  border-top: none;
+                  transition: all 0.1s linear;
+                  cursor: pointer;
                   }
-                  .reci0{
-                    width: 59.3%;
-                    height: 100%;
-                    float: left;
-                    }
-                        .btn0{
-                          background-color: #26ff00;
-                          width: 100%;
-                          height: 100%;
-                          float: left;
-                          border-left: none;
-                          border-top: none;
-                          }
-                        .btn0 img{
-                          margin-left: 2%;
-                          height: 72%;
-                        }
-                   .reci1{
-                     width: 10%;
-                     height: 100%;
-                     float: left;
-                     }
-                        .btn1{
-                          background-color: #3fd78f;
-                          width: 100%;
-                          height: 100%;
-                          float: left;
-                          border-left: none;
-                          border-top: none;
-                        }
-                     .reci2{
-                          width: 10.5%;
-                          height: 100%;
-                          float: left;
-                          }
+
+            .btn1:hover {
+            background: rgb(255, 255, 255);
+            }
+            .reci2{
+            width: 10%;
+            height: 100%;
+            float: left;
+             }
                              .btn2{
                                background-color:#58c7c3;
                                width: 100%;
@@ -87,9 +106,79 @@ button{
                                float: left;
                                border-left: none;
                                border-top: none;
+                               transition: all 0.1s linear;
+                               cursor: pointer;
                              }
+              .btn2:hover {
+              background: white;
+              }   
+              .flyer1{
+                background-color:#3fd78f;
+                width: 80%;
+                height: 70vh;
+                     }
+                     #informativo{
+                      background-color:#3fd790bc;
+                    }
+                     .flyer1 .cancelador1{
+                      margin-right: 5%;
+                      margin-top: -5%;
+                      display: flex;
+                      justify-content: flex-end;
+                      cursor: pointer;
+                      font-size: 53px;
+                      }
+                      #collabs:checked ~ .popmama1{
+                        display:flex;
+                     }
+                     #collabs{
+                      display:none;
+                      }
+                      .popmama1{
+                        width: 100%;
+                        height: 100vh;
+                        position: fixed;
+                        top: 0; left: 0;
+                        display: none;
+                        justify-content: center;
+                        align-items: center;
+                        z-index: 100;
+                      }
+
+                      .flyer2{
+                        background-color:#58c7c3;
+                        width: 80%;
+                        height: 70vh;
+                             }
+                             #informativo2{
+                              background-color:#58c7c3c2;
+                            }
+                             .flyer2 .cancelador2{
+                              margin-right: 5%;
+                              margin-top: 22%;
+                              display: flex;
+                              justify-content: flex-end;
+                              cursor: pointer;
+                              font-size: 53px;
+                              }
+                              #collabs2:checked ~ .popmama2{
+                                display:flex;
+                             }
+                             #collabs2{
+                              display:none;
+                              }
+                              .popmama2{
+                                width: 100%;
+                                height: 100vh;
+                                position: fixed;
+                                top: 0; left: 0;
+                                display: none;
+                                justify-content: center;
+                                align-items: center;
+                                z-index: 100;
+                              }
                         .reci3{
-                           width: 10.1%;
+                           width: 10%;
                            height: 100%;
                            float: left;
                            }
@@ -100,11 +189,24 @@ button{
                                    float: left;
                                    border-left: none;
                                    border-top: none;
+                                   cursor: pointer;
+                                   transition: all 0.1s linear;
                                  }
-    
+.btn3:hover {
+background: rgb(255, 255, 255);
+}             
+            #bajar1px{
+              display: flex;
+              align-items: center;
+              justify-content: center;   
+              color: #2d2d2d ;
+                          margin-top: 3px;
+                          font-size: 30px;
+                          cursor:pointer;
+                          }     
 
                               .reci4{
-                                width: 10.1%;
+                                width: 10%;
                                 height: 100%;
                                 float: left;
                                 }
@@ -120,20 +222,260 @@ button{
                                       }
 .btn4:hover {
 background:  #ffffff;
-}  
+}   
+.btnW{
+  background-color: rgb(56, 255, 53);
+  margin-top: 30px;
+  margin-left: 8px;
+  border-radius: 100%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+  border: none;
+  position: fixed;
+  opacity: 1;  
+  z-index:7;
+   }
+.btnW:hover{
+scale: 1.2;
+cursor:pointer;
+}
 
-#carrito{
-  text-align: center;
-  align-content: center;
-  color: #000000;
+.menu{
+  background-color: rgb(56, 255, 53);
+  margin-top: 95px;
+  margin-left: 8px;
+  border-radius: 100%;
+  width: 55px;
+  height: 55px;
+  align-items: center;
+  justify-content: center;  
+  border: none;
+  opacity: 1;
+  visibility: visible;
+  z-index: 7;
+ }
+.menu:hover{
+scale: 1.2;
+cursor:pointer;
+}
+.men{
+  background-color: rgb(0, 8, 255);
+  width: 0px;
+  height: 0px;
+  }
+  .loguito0{
+    background-image:url(m/loguito.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 70%;
+    margin-top: -32%;
+    display:block;
+    width: 100px;
+    height: 90px;
+  }
+/*/////////////////menu desglosable////////////////*/
+#btn-menu{
+  display:none;
+
+}
+.container-menu{
+  position: fixed;
+  padding-top: 100px;
+  background:linear-gradient(to right,#6961ff,#6188ff99 );
+  width: 100vw;
+  height: 700px;
+  top: 0; left: 0;
+  transition: all .2s ease;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 10;
+ }
+#btn-menu:checked ~ .container-menu{
+  opacity: 1;
+  visibility: visible;
+}
+.cont-menu{
+  width:100%;
+  height: 100px;
+  position: relative;
+  transition: all .3s ease;
+  }
+.cont-menu nav{
+transform: translateY(13%);
+}
+.cont-menu nav a{
+  display: block;
+  color: #2d2d2d;
+  padding: 10px;
+  text-decoration: none;
+  border-left: 8px solid transparent;
+  transition: all .3s ease;
+  font-family: 'Roboto Mono';
+  font-size: 16px;
+  font-weight: 620;
+  letter-spacing: 1px;
+  line-height: 16px; /*espacio entre lineas*/
+  }
+  .cont-menu nav a:hover{
+    border-left: 6px solid #ffffff;
+    color: #ffffff ;
+    font-size: 17px;
+      font-weight:1000;
+      }
+  .cont-menu label{    /*la x*/
+   position: absolute;
+   left: 25%;
+   top: 20px;
+   font-size: 80px;
+   color: #2d2d2d;
+   cursor: pointer;
+}
+.cont-menu label:hover{
+  color: #ffffff ;
+ }
+
+ #carrito{
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+  color: #2d2d2d ;
   font-size: 30px;
   cursor:pointer;
   } 
+#carritoMenu{
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+  color: #000000;
+  font-size: 20px;
+  cursor:pointer;
+  }
 .todo{
     width:100%;
   height: 880px;
-  padding-top: 110px;
+  padding-top: 80px;
   }
+
+/* 0000000000000000000000000000000000000000 CONTENEDORES reciclosos||||||||||||||||||||||||*/
+.ww{
+  width:100%;
+  height: 220px;
+  margin-top: 1.3%;
+   background-color:none;
+  }
+  .wuno{
+     width:30%;
+    height: 220px;
+    float: left;  
+    }
+     .wuno:hover {
+      background: #98dddb;
+      }
+    .w00{
+      background-color: rgba(255, 255, 255, 0);
+      width:50%;
+      height: 100%;
+      border-top: none;
+      border-left: none;
+      float: left;
+      position: relative;  
+          }
+      #fototapir{
+        width: 60%;
+        }
+              .w00b{
+      background-color: rgba(255, 255, 255, 0);
+      width:50%;
+      height: 100%;
+      border-top: none;
+      border-left: none;
+      float: left;
+      position: relative;  
+          }
+
+  .wdos{
+    width:36%;
+    height: 220px;
+    float: left; 
+    }
+    .w22{
+      background-color: rgba(255, 255, 255, 0);
+      width:50%;
+      height: 100%;
+      border-top: none;
+      border-left: none;
+      float: left;   
+      position: relative;
+          }
+              .w22b{
+      background-color: rgba(255, 255, 255, 0);
+      width:50%;
+      height: 100%;
+      border-top: none;
+      border-left: none;
+      float: left;   
+      position: relative;
+          }
+          .wdos:hover {
+            background: #3fd78f;
+            }
+      .wtres{
+        width:34%;
+        height: 220px;
+        float: left; 
+        }
+        .w33{
+          background-color: rgba(255, 255, 255, 0);
+          width:50%;
+          height: 100%;
+          border-top: none;
+          border-left: none;
+          float: left;   
+          position: relative;
+              }
+                      .w33b{
+          background-color: rgba(255, 255, 255, 0);
+          width:50%;
+          height: 100%;
+          border-top: none;
+          border-left: none;
+          float: left;   
+          position: relative;
+              }
+       #fototibu{
+        width: 75%;
+        }
+               #fotooso{
+        width: 82%;
+        }
+       #fotoardilla{
+        width: 70%;
+        }
+               #fotogallito{
+        width: 70%;
+        }
+        #fotoguanay{
+        width: 60%;
+        }
+        #fotoping{
+        width: 60%;
+        }
+              .wtres:hover {
+                background: #d8f2f1;
+                }
+           #ig{
+            color: #f700ff;
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            font-size: 24px;
+            cursor:pointer;
+            z-index: 10;
+          }
+/* 000000000000000000 FORMATO LONGITUDINAL||||||||*/
 
  .w{
   width:100%;
@@ -142,195 +484,193 @@ background:  #ffffff;
   }
                     .w11{
                       background-color: rgba(255, 255, 255, 0);
-                      width:16%;
+                      width:15%;
                       height: 220px;
                       border-top: none;
                       float: left;                      
                       }
                       .w12{
                         background-color: rgba(255, 255, 255, 0);
-                        width:34%;
+                        width:16%;
                         height: 220px;
                         border-top: none;
                         border-left: none;
                         float: left;
-                        position: relative
+                        position: relative;
+                        font-family: 'Roboto Mono';
+                        font-weight: 400;
+                        font-size: 21px;
                         }
                         .w13{
-                          width:50%;
+                          background-color: rgba(255, 255, 255, 0);
+                          width:34%;
                           height: 220px;
                           border-top: none;
                           border-left: none;
                           float: left;
                           position: relative;
                           }
-#mas{
-  color: #2d2d2d ;
-  position: absolute;
-  left: -40px;
-  top: 10px;
-  font-size: 27px;
-  cursor:pointer;
-}
-#info{
-  color: #2d2d2d ;
-  position: absolute;
-  left: -40px;
-  top: 50px;
-  font-size: 27px;
-  cursor:pointer;
-}
-/* ////////////////////////inicia botonmas*/
-#botonmas{
-  display: none;
-}
-.mostrar{        /* ////////////////el mismo pa todos/////////////*/
-  height: 218px;
-  width: 101.8%;
-  margin-left: -0.86%;
-  display: flex;
-  opacity: 0;
-  visibility:  hidden;
- }
- #cerocero{
-  margin-top: 0;
-  background-image: url(programas/adopciones.png);
-  background-size: 43%;
-  background-position:  bottom;
-  background-repeat:no-repeat;
-  background-color: #d8f2f1;
-}
- #botonmas:checked ~ .mostrar{
-  opacity: 1;
-  visibility: visible;
-}
+                          .w14{
+                            background-color: rgba(255, 255, 255, 0);
+                            width:35%;
+                            height: 220px;
+                            border-top: none;
+                            border-left: none;
+                            float: left;
+                            position: relative;
+                            }
+#wCero {
+  margin-top: 20px;
+   } 
 #wCero:hover {
   background: #d8f2f1;
    }  
-
-    /* ////////////////////////inicia botonmas1*/
-#botonmas1{
-  display: none;
-}
-#botonmas1:checked ~ .mostrar{
-  opacity: 1;
-  visibility: visible;
-}
-#unouno{
-  margin-top: 0;
-  background-image: url(programas/x.png);
-  background-size: 43%;
-  background-position: bottom;
-  background-repeat:no-repeat;
-  margin-top: 0px;
-  background-color: #98dddb;
-}
 #wUno:hover {
   background: #98dddb;
 } 
- /* ////////////////////////inicia botonmas2*/
-#botonmas2{
-  display: none;
-}
-#botonmas2:checked ~ .mostrar{
-  opacity: 1;
-  visibility: visible;
-}
-#dosdos{
-  margin-top: 0;
-  background-image: url(programas/charla.png);
-  background-size: 43%;
-  background-position: bottom;
-  background-repeat:no-repeat;
-  margin-top: 0px;
-  background-color: #98dddb;
-}
 #wDos:hover {
   background: #98dddb;
 } 
-/* ////////////////////////inicia botonmas3*/
-#botonmas3{
-  display: none;
-}
-#botonmas3:checked ~ .mostrar{
-  opacity: 1;
-  visibility: visible;
-}
-#trestres{
-  margin-top: -33px;
-  background-color: #58c7c3;
-}
+
 #wTres:hover {
   background:#58c7c3;
 } 
-  
-/* ////////////////////////inicia botonmas6*/
-#botonmas6{
-  display: none;
-}
-#botonmas6:checked ~ .mostrar{
-  opacity: 1;
-  visibility: visible;
-}
-#seisseis{
-  margin-top: 0px;
-  margin-top: 0;
-  background-image: url();
-  background-size: 80%;
-  background-position: bottom;
-  background-repeat:no-repeat;
-  background-color: #3fd78f;
+#wCinco:hover {
+  background:#ffd8fd;
 }
 #wSeis:hover {
   background:#3fd78f;
 }
 
-
- #adoptado{
-    background-image:  url(m/000.gif);
-    background-size: cover;
-    background-position: center;
-}
-#adopciones{
-margin-top: 147px;
-margin-right: 20px;
-}
-#segregado{
-  background-image:  url(programas/triturado.gif);
-  background-size: cover;
-  background-position: center;
-}
 #talleres{
   background-image:  url(programas/talleres.gif);
   background-size: cover;
   background-position: center;
 }
-#murales{
-  background-image:  url(programas/murales.gif);
+#zines{
+  background-image:  url(programas/zines.gif);
   background-size: cover;
   background-position: center;
 }
-#producto{
-  background-image:  url(programas/murales.gif);
+#libretas{
+  background-image:  url(programas/libretas.gif);
   background-size: cover;
   background-position: center;
 }
-#metamorfo{
-  background-image:  url(programas/cncs.gif);
+#rocos{
+  background-image:  url(programas/rocos.gif);
   background-size: cover;
   background-position: center;
 }
-
+#bolsos{
+  background-image:  url(programas/bolsos.gif);
+  background-size: cover;
+  background-position: center;
+}
+#chimango{
+  background-image:  url(programas/chimango.gif);
+  background-size: cover;
+  background-position: center;
+}
+#jeans{
+  background-image:  url(programas/jeanss.gif);
+  background-size: cover;
+  background-position: center;
+}
+#petazul{
+  background-image:  url(programas/pets.gif);
+  background-size: cover;
+  background-position: center;
+}
+#openp{
+  background-image:  url(programas/openp.gif);
+  background-size: cover;
+  background-position: center;
+}
 h5{ /*l a b o r a t o r i o*/
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 15px;
-  color: #2d2d2d ;
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  color: #0037ff ;
   text-align: left;
-  margin-left: 1.2%;
-  margin-top: 0.5%;
-   font-weight: 500;
+   margin-top: 0.2%;
+   font-weight: 400;
   letter-spacing: 1px;
 }
+     h6{  /*concepto*/
+       font-family: 'Roboto Mono';
+        font-size: 17px;
+        font-weight: 400;
+        color: #2d2d2d ;
+        margin-left: 15%;
+        margin-right: 15%;
+      }
+
+ #explicativo{ 
+  font-size: 17px;
+  color: #2d2d2d ;
+  font-weight: 400;
+  margin-left: 16%;
+   margin-right: 17%;
+   margin-top: 5%;
+}
+ h1{  /*titulos descriptivos*/
+  line-height: 15px; /*espacio entre lineas*/
+  display: flex;
+   color: #2d2d2d ;
+   }
+#norm{
+  font-size: 17px;
+   font-family: 'Roboto Mono';
+   font-weight: 400;
+   text-align: left;
+   margin-left: 2px;
+}
+#nolink{
+  font-size: 15px;
+  color: blue;
+  font-style: italic;
+   font-family: 'Roboto Mono';
+   font-weight: 400;
+   text-align: left;
+   margin-left: 2px;
+}
+#obli{
+  font-size: 17px;
+  font-family:'Times New Roman', Times, serif;
+  font-style: oblique;
+  text-decoration:underline;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 2px;
+}
+
+#textore{ 
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 1.5%;
+   margin-right: 40%;
+   margin-top: -10%;
+   text-align: justify;
+}
+#textore2{ 
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 1.5%;
+   margin-right: 40%;
+   margin-top: -10%;
+   text-align: justify;
+}
+
+.asu{
+  width: 52%;
+  height: 100px;
+position: absolute;
+z-index: 0;
+  }
+  #oddss{ 
+    margin-top: -4%;
+    width: 80%;
+    }
        
                             #carrito{
                               display: flex;
@@ -339,176 +679,590 @@ h5{ /*l a b o r a t o r i o*/
                             font-size: 30px;
                             cursor:pointer;
                             } 
-                            h2{ /*programa */
-                              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                              font-size: 31px;
-                              color: #2d2d2d ;
-                              font-weight: 620;
-                              letter-spacing: 1px;
-                             line-height: 30px; /*espacio entre lineas*/
-                              }
-                              h1{ /*descripcion*/
-                                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                                font-size: 14px;
-                                color: #2d2d2d ;
-                                font-weight: 620;
-                                margin-top: 20px;
-                                line-height: 15px; /*espacio entre lineas*/
-                                display: flex;
-                                text-align: justify;
-                                align-content: left;
-                                margin-left: 20px;
-                                margin-right: 10px;
-                           }
-/*////////BOTÓN//////////////////////////////////////7777*/
+#perrito{
+ background-image:url(programas/perrito.png);
+ background-size: 35%;
 
+ background-repeat:no-repeat;
+  background-position: bottom right;
+               } 
+
+                                          .textoyellow{
+                                             width: 85%;
+                                             height: 100%;
+                                             float: left;
+                                             padding-top: 18px;
+                                             }
+                                           .reimaginatexto{
+                                          width: 100%;
+                                             height: 100%;
+                                             border-left: none;
+                                             text-align: left;
+                                           }
+
+                                                          .reimaginax{
+                                                            width: 15%;
+                                                             height: 100%;
+                                                             float: left;
+                                                             padding-top: 18px;
+                                                           }
+                                                                           .reimaginaxx{
+                                                                              width: 100%;
+                                                                             height: 100%;
+                               border-top: none;
+    }
+    .bola{
+      transform: rotate(-90deg);
+      }
+
+ .todonegro{ /*/solobolo /*/
+  width:100%;
+  height: 1200px;
+  padding-top: 80px;
+  background-color: #2d2d2d;
+  
+}
+#bolonegro{
+  background-color: #2d2d2d;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.311));
+ }
+#bolonegro2{
+  background-color: #2d2d2d;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.311)), url(p/boloarroz3.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#quito{
+color: #ffffff;
+font-weight: 300;
+text-align: justify;
+margin-top: 350px;
+font-size: 14px;
+margin-left: 10px;
+margin-right: 10px;
+ }
+/*////////BOTÓN//////////////////////////////////////7777*/
+/*///////////////////////////////////////////1200////////////*/
+@media (max-width:1200px){ 
+  #logi{
+      width: 35%;
+      margin-top: 2%;
+      }
+ #norm{
+  font-size: 14px;
+  line-height: 14px;
+}
+  .cont-menu label{    /*la x*/
+   left: 30%;
+}
+  #obli{
+  font-size: 14px;
+}
+      h6{  /*concepto*/
+        font-size: 15px;
+        margin-right: 16%;
+        }
+.reimagina222{
+  font-size: 16px;
+}
+#quito{
+margin-top: 320px;
+
+ }
+  } 
+  /*///////////////////////////////////////////1000////////////*/
+@media (max-width:1000px){ 
+    #logi{
+      width: 53%;
+         }
+ .cont-menu label{    /*la x*/
+   left: 35%;
+}
+.reimagina222{
+  font-size: 14px;
+}
+        /*/////////////////REIMAGINA.HTML INICIO///////////7/*/
+#textore{ 
+  font-size: 16px;
+  margin-left: 1%;
+   margin-right: 1%;
+   margin-top: -20%;
+}
+#textore2{ 
+  font-size: 16px;
+  margin-left: 1%;
+   margin-right: 1%;
+}
+
+.asu{
+  width: 80%;
+  }
+  /*/////////////////REIMAGINA.HTML FIN///////////7/*/
+  .w12{    /*letras pa murales y talleres / titul os*/
+ font-size: 16px;
+}
+  #norm{
+  font-size: 13px;
+  line-height: 13px;
+}
+#quito{
+margin-top: 280px ;
+ }
+  } 
+    /*///////////////////////////////////////////900////////////*/
+@media (max-width:900px){ 
+  #logi{
+      width: 57%;
+         }
+                 #magg{
+                     height: 80%;
+                                      }
+                                              #norm{
+  font-size: 12px;
+  line-height: 12px;
+}
+  #obli{
+  font-size: 15px;
+}
+.w12{    /*letras pa murales y talleres / titul os*/
+ font-size: 15px;
+}
+#quito{
+margin-top: 170px;
+font-size: 13px;
+ }
+  } 
 /*///////////////////////////////////////////825////////////*/
 @media (max-width:825px){ 
-  section[id]{
+ section[id]{
     scroll-margin-top: 88px;
   }  
-  .botones0{
-    height: 90px;
-   }
-  .lab1 img{
-    height: 32%;
+  button{
+    border-width: 1.5px;
   }
-  #carrito{
-    font-size: 28px;
-    } 
-    .todo{
-    padding-top: 90px;
+                 #magg{
+                     height: 75%;
+                                      }
+  .plays img{
+    height:50%;
+}
+   .btn0 img{
+    margin-left: 1%;
+    margin-top: 1.2%;
+    height: 70%;
     }
-    h5{ /*programa */
-      font-size: 24px;
-      font-weight: 580;
-     line-height: 20px; /*espacio entre lineas*/
+    #logi{
+      width: 62%;
+     margin-top: 1%;
       }
-      h1{ /*descripcion*/
-        font-size: 14px;
-        font-weight: 500;
-        margin-top: 10px;
-        line-height: 12px; /*espacio entre lineas*/
-        margin-left: 10px;
-   }
-   #dosdos{
-    background-size: 67%;
-  }
-  #cerocero{
-    background-size: 60%;
-  }
-  #seisseis{
-    background-size: 90%;
-  }
-  .mostrar{        /* ////////////////el mismo pa todos/////////////*/
-    height: 218px;
-    width: 103.4%;
-    margin-left: -1.6%;
-   }
+
+.cont-menu label{    /*la x*/
+   left: 40%;
+
+}
+            h6{  /*concepto*/
+               font-size: 12px;
+             }
+ #explicativo{ 
+  font-size: 15px;
+  margin-left: 15%;
+   margin-right: 15%;
+   margin-top: 3%;
+}
+#quito{
+margin-top: ;
+ }
   } 
+  /*///////////////////////////////////////////750/////////////*/
+@media (max-width:750px){ 
+        #logi{
+      width: 68%;
+      }
+.cont-menu label{    /*la x*/
+   left: 44%;
+
+}
+                       #magg{
+                     height: 64%;
+                                      }
+.w12{
+font-size: 13px;
+  }
+      #fototapir{
+        width: 55%;
+        }
+          #norm{
+  font-size: 11px;
+  line-height: 11px;
+}
+  }
 /*///////////////////////////////////////////650/////////////*/
 @media (max-width:650px){ 
-  h5{ /*programa */
-    font-size: 20px;
-    font-weight: 550;
-   line-height: 16px; /*espacio entre lineas*/
-    }
-    h1{ /*descripcion*/
-      font-size: 12px;
-      font-weight: 400;
- }
-
- .w11 img{ /*numeros*/
-height: 30%;
-}
- #dosdos{
-  background-size: 67%;
-}
-#cerocero{
-  background-size: 60%;
-}
-#seisseis{
-  background-size: 90%;
-}
-h5{ /*l a b o r a t o r i o*/
-  font-size: 12px;
-}
-
-}
-  /*///////////////////////////////////////////450/////////////*/
-  @media (max-width:450px){ 
-    section[id]{
-      scroll-margin-top: 63px;
-    }  
-    .botones0{
-      height: 65px;
-     }
-     .btn0 img{
-      margin-left: 0;
-      height: 59%;
-    }
-    .lab1 img{
-      height: 28%;
-      margin-left: 0;
-    }
-     #carrito{
-      font-size: 16px;
-      } 
-      .todo{
-      padding-top: 60px;
+  #logi{
+      width: 62%;
       }
-      .w{
-        height: 440px;
-        }
-        .w11{
-          width: 30% ;
+ 
+  button{
+    border-width: 1.2px;
+  }
+
+                         #magg{
+                     height: 60%;
+                                      }
+.plays{
+  width: 0%;
+  height: 0%;
+  }
+
+.recicloso{
+width: 100%;
+  }
+.reci0{
+width: 52%;
+}
+.reci1{
+width: 12%;
+}
+.reci2{
+width: 12%;
+}
+.reci3{
+width: 12%;
+}
+.reci4{
+width: 12%;
+}
+ .ingles{
+  width: 45px;
+  height: 45px;
+}
+
+.btnW{
+   width: 45px;
+  height: 45px;
+  margin-top: 35px;
+   }
+   .menu{
+    width: 45px;
+    height: 45px;
+     margin-top: 95px;
+   }
+
+.cont-menu label{    /*la x*/
+   left: 60%;
+
+}
+    h5{ /*texto azul encabezao */
+      margin-top: 1%;
+      font-size: 11px;
+      }
+                  h6{  /*concepto*/
+               font-size: 10px;
+             }
+
+           /* 000000000000000000 FORMATO LONGITUDINAL||||||||*/
+ .w{
+  height: 660px;
+  }
+.w11{
+width:52%;
+ }
+ .w12{
+width:48%;
+font-size: 20px;
+  }
+.w13{
+width:100%;
+ }
+.w14{
+width:100%;
+ }
+  #norm{
+  font-size: 15px;
+  line-height: 15px;
+}
+  #obli{
+  font-size: 17px;
+}
+/*////////////////////////////////contenedores////////////*/
+.ww{
+  height: 660px;
+  margin-top: 20px;
+  }
+  .wuno{
+    width:100%;
+    }
+    .w00{
+      width:52%;
           }
-          .w12{
-            width: 70% ;
-            }
-            .w13{
-              width: 100% ;
-              }
-              h5{ /*programa */
-                font-size: 24px;
-                font-weight: 580;
-               line-height: 20px; /*espacio entre lineas*/
-                }
-                h1{ /*descripcion*/
-                  font-size: 14px;
-                  font-weight: 500;
-                  margin-top: 10px;
-                  line-height: 12px; /*espacio entre lineas*/
-                  margin-left: 10px;
+      .w00b{
+      width:48%;
+          }
+    .wdos{
+    width:100%;
+    }
+     .w22{
+      width:52%;
+          }
+      .w22b{
+      width:48%;
+          }
+              .wtres{
+    width:100%;
+    }
+     .w33{
+      width:52%;
+          }
+      .w33b{
+      width:48%;
+          }
+              #fototibu{
+        width: 65%;
+        }
+      #fotooso{
+        width: 72%;
+        }
+       #fotoardilla{
+        width: 60%;
+        }
+       #fotogallito{
+        width:55%;
+        }
+        #fotoguanay{
+        width: 40%;
+        }
+        #fotoping{
+        width: 50%;
+        }
+
+}
+  /*///////////////////////////////////////////550/////////////*/
+  @media (max-width:550px){ 
+                             #magg{
+                     height: 53%;
+                                      }
+.cont-menu label{    /*la x*/
+   left: 65%;
+   font-size: 60px;
+}
+    }
+  /*///////////////////////////////////////////500/////////////*/
+  @media (max-width:500px){ 
+               section[id]{
+  scroll-margin-top: 100px;
+}
+      button{
+    border-width: 1px;
+  }
+                         #magg{
+                     height: 60%;
+                                      }
+.recicloso{
+width: 100%;
+  }
+  .btn0 img{
+margin-left: -1%;
+height: 75%;
+}
+.reci0{
+width: 52%;
+height: 80%;
+}
+
+  .lab{
+  height: 28px;
+ }
+        #logi{
+      width: 74%;
+
+         }
+.reci1{
+           width: 12%;
+           height: 80%;
+           }
+           .reci2{
+           width: 12%;
+           height: 80%;
+           }
+            .reci3{
+           width: 12%;
+           height: 80%;
+           }
+           .reci4{
+           width: 12%;
+           height: 80%;
+           }
+#explicativo{ 
+  margin-left: 10%;
+   margin-right: 10%;
+   line-height: 17px;
+}
+.btnW{
+   width: 45px;
+  height: 45px;
+  margin-top: 20px;
+   }
+   .menu{
+    width: 45px;
+    height: 45px;
+     margin-top: 80px;
+   }
+
+.w12{
+font-size: 20px;
+  }
+  #wCero {
+  margin-top: 0px;
+   } 
+   .cont-menu label{    /*la x*/
+   left: 80%;
+  }
+    h6{  /*concepto*/
+               font-size: 17px;
              }
-             #dosdos{
-              background-size: 67%;
-            }
-            #cerocero{
-              background-size: 60%;
-            }
-            #seisseis{
-              background-size: 90%;
-            }
-            .mostrar{        /* ////////////////el mismo pa todos/////////////*/
-              height: 218px;
-              width: 103.4%;
-              margin-left: -1.6%;
+.reimaginax{  /*bloque completo de metamorfosis*/
+padding-top: 0px;
+}
+.textoyellow{  /*bloque completo de metamorfosis*/
+padding-top: 0px;
+}
+  #textore {
+  font-size: 14px;
+  margin-top: -120px;
+   }
+        #textore2 {
+  font-size: 14px;
+   }
+        #oddss{ 
+ 
+    width: 95%;
+    }
+    /*////////////////////////////////contenedores////////////*/
+.ww{
+  margin-top: 0px;
+  }
+    }
+  /*///////////////////////////////////////////400/////////////*/
+  @media (max-width:400px){ 
+
+    section[id]{
+  scroll-margin-top: 65px;
+}
+  #magg{
+                     height: 70%;
+                                      }
+#chato{
+ margin-top: -45px;
+}
+    .lab{
+  height: 20px;
+ }
+     h5{ /*texto azul encabezao */
+      font-size: 8px;
+      }
+       h6{  /*concepto*/
+               font-size: 15px;
              }
-             .w11 img{ /*numeros*/
-              height: 40%;
-              }
-              #mas{
-                right: -100%;
-                top: -15%;
-              }
-              #info{
-                right: -100%;
-                top: -30%;
-              }
-              h5{ /*l a b o r a t o r i o*/
-                font-size: 10px;
-              margin-left: 1%;
-               font-weight: 400;
-            }
+.btn0 img{
+height: 80%;
+}
+.reci0{
+height: 50%;
+}
+          .reci1{
+           height: 50%;
+           }
+           .reci2{
+           height: 50%;
+           }
+            .reci3{
+           height: 50%;
+           }
+           .reci4{
+           height: 50%;
+           }
+        #logi{
+     width: 68%;
+      margin-top: 0px;
+         }
+#carrito{
+  font-size: 18px;
+  } 
+  #bajar1px{
+    margin-top: 2px;
+    font-size: 17px;
+    }   
+    #carrito2{
+      font-size: 17px;
+      }
+    #carritoMenu{
+      font-size: 16px;
+      }
+
+   .btnW{
+  width: 41px;
+  height: 41px;
+  margin-top: -12px;
+   }
+   .menu{
+width: 41px;
+  height: 41px;
+      margin-top: 42px;
+   }
+      .w12{
+font-size: 17px;
+  }
+    #wCero {
+  margin-top: -30px;
+   } 
+
+.reimaginax{  /*bloque completo de metamorfosis*/
+margin-top: -26px;
+}
+.textoyellow{  /*bloque completo de metamorfosis*/
+margin-top: -26px;
+}
+  #textore {
+  font-size: 12px;
+  margin-top: -170px;
+   }
+     #textore2 {
+  font-size: 12px;
+   }
+     #oddss{ 
+ 
+    width: 97%;
+    }
+        /*////////////////////////////////contenedores////////////*/
+.ww{
+  margin-top: -25px;
+  }
+     #fototapir{
+        width: 65%;
+        }
+            #fototibu{
+        width: 75%;
+        }
+              #fotooso{
+        width: 82%;
+        }
+                      #fotoardilla{
+        width: 70%;
+        }
+               #fotogallito{
+        width: 70%;
+        }
+        #fotoguanay{
+        width: 60%;
+        }
+        #fotoping{
+        width: 60%;
+        }
+#quito{
+font-size: 12px;
+margin-left: 3px;
+margin-right: 3px;
+ }
+  #bolonegro2{
+}
     }
