@@ -313,7 +313,7 @@ transform: translateY(13%);
   text-decoration: none;
   border-left: 8px solid transparent;
   transition: all .3s ease;
-  font-family: 'Roboto Mono';
+   font-family: 'Roboto Mono', monospace;
   font-size: 16px;
   font-weight: 620;
   letter-spacing: 1px;
@@ -497,7 +497,7 @@ transform: translateY(13%);
                         border-left: none;
                         float: left;
                         position: relative;
-                        font-family: 'Roboto Mono';
+                         font-family: 'Roboto Mono', monospace;
                         font-weight: 400;
                         font-size: 21px;
                         }
@@ -597,7 +597,7 @@ h5{ /*l a b o r a t o r i o*/
   letter-spacing: 1px;
 }
      h6{  /*concepto*/
-       font-family: 'Roboto Mono';
+        font-family: 'Roboto Mono', monospace;
         font-size: 17px;
         font-weight: 400;
         color: #2d2d2d ;
@@ -620,7 +620,7 @@ h5{ /*l a b o r a t o r i o*/
    }
 #norm{
   font-size: 17px;
-   font-family: 'Roboto Mono';
+    font-family: 'Roboto Mono', monospace;
    font-weight: 400;
    text-align: left;
    margin-left: 2px;
@@ -629,7 +629,7 @@ h5{ /*l a b o r a t o r i o*/
   font-size: 15px;
   color: blue;
   font-style: italic;
-   font-family: 'Roboto Mono';
+   font-family: 'Roboto Mono', monospace;
    font-weight: 400;
    text-align: left;
    margin-left: 2px;
