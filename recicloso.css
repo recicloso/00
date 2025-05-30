@@ -677,6 +677,7 @@ float: left;
 
            #instalaciones{
             background:#d8f2f1; 
+             color: #292929;
             border-top: none;  
             cursor:  url(cursor/magia.png), auto;
            }
@@ -686,6 +687,7 @@ float: left;
 
              #acerca{
               background:#f461ff;
+               color: #292929;
               border-top: none; 
              }
              #acerca:hover {
@@ -693,6 +695,7 @@ float: left;
                } 
                #metamorfosis{
                 background:#3fd78f;
+                 color: #292929;
                 border-top: none;  
                }
                #metamorfosis:hover {
@@ -700,6 +703,7 @@ float: left;
                  } 
                  #talleres{
                   background:#58c7c3;
+                   color: #292929;
                   border-top: none; 
                   }
                  #talleres:hover {
@@ -707,6 +711,7 @@ float: left;
                    }  
                    #consultorias{
                     background: #98dddb;
+                     color: #292929;
                     border-top: none;  
                    }
                    #consultorias:hover {
@@ -714,12 +719,14 @@ float: left;
                      }  
                      #contenedores{
                       background:#3fd78f;
+                       color: #292929;
                       border-top: none;  
                      }
                      #contenedores:hover {
                      background:#f5f2f2;
                        } 
                      #eventos{
+                       color: #292929;
                       background:#d8f2f1; 
                       border-top: none;  
                      }
@@ -728,6 +735,7 @@ float: left;
                        } 
                        #procesos{
                         background:#ffd8fd;
+                         color: #292929;
                         border-top: none;  
                        }
                        #procesos:hover {
@@ -776,6 +784,7 @@ float: left;
                  }
                  #acv{
                   background: #f461ff;
+                   color: #292929;
                   border-top: none;  
                  }
                  #acv:hover {
@@ -784,16 +793,19 @@ float: left;
                    #ubicaciones{
                     background: #3fd78f;
                     border-top: none;  
+                     color: #292929;
                    }
                    #ubicaciones:hover {
                    background:#f5f2f2;
                      } 
                      #equipo{
                       background:#58c7c3;
+                       color: #292929;
                       border-top: none;  
                      }
                      #equipo:hover {
                      background:#f5f2f2;
+                       
                        } 
 
 
@@ -811,7 +823,6 @@ float: left;
                          width: 100%;
                          height:100%;
                          float: left;
-                            color: #292929;
                          font-weight: 400;
                          font-size: 21px;
                          border-top: none;  
@@ -820,18 +831,21 @@ float: left;
                          }
                          #murales{
                           background:#ffd8fd;
-                          
+                          color: #292929;
 
                          }
                          #murales:hover {
                          background:#f5f2f2;
+                           color: #292929;
                            } 
                            #productos{
                             background: #98dddb;
+                             color: #292929;
 
                            }
                            #productos:hover {
                            background: #f5f2f2;
+                             color: #292929;
                              } 
   
  .a5{
